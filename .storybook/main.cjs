@@ -18,7 +18,7 @@ module.exports = {
     "interactionsDebugger": true
   },
   "staticDirs": [
-    "../plubic"
+    "../public"
   ],
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
